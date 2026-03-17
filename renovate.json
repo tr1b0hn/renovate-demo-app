@@ -6,6 +6,7 @@
   ],
   "schedule": ["before 6am on monday"],
   "timezone": "Europe/Berlin",
+  "prConcurrentLimit": 4,
   "packageRules": [
     {
       "matchDepTypes": ["devDependencies"],
