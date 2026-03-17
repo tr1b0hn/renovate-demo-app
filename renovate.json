@@ -4,7 +4,7 @@
     "config:recommended",
     "mergeConfidence:all-badges"
   ],
-  "schedule": ["before 6am on monday"],
+  #"schedule": ["before 6am on monday"],
   "timezone": "Europe/Berlin",
   "prConcurrentLimit": 4,
   "minimumReleaseAge": "3 days",
