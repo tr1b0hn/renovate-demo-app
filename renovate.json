@@ -4,10 +4,13 @@
     "config:recommended",
     "mergeConfidence:all-badges"
   ],
+  "schedule": ["before 6am on monday"],
+  "timezone": "Europe/Berlin",
   "packageRules": [
     {
-      "matchUpdateTypes": ["patch", "minor"],
-      "groupName": "non-major updates",
+      "matchDepTypes": ["devDependencies"],
+      "matchUpdateTypes": ["patch"],
+      "groupName": "dev dependencies (patch)",
       "automerge": true,
       "automergeType": "pr"
     },
